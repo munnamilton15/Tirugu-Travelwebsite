@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Stations in Karnataka - Tirugu</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-hills {
+            background-image: url('https://placehold.co/1600x800/27ae60/ffffff?text=Karnataka+Hill+Stations');
+            background-size: cover;
+            background-position: center;
+        }
+        .info-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 text-blue-600"><path d="M18.4 10.3C18.8 11.5 19 12.7 19 14c0 3.3-2.7 6-6 6s-6-2.7-6-6c0-1.3.2-2.5.6-3.7"/><path d="M8.8 12.3C9.4 11.2 10.6 10.1 12 9.1c1.4 1 2.6 2.1 3.2 3.2"/><path d="M12 14v-5"/><path d="M12 22c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5Z"/><path d="M12 2a10 10 0 0 0-9.8 11.3 10 10 0 0 0 19.6 0A10 10 0 0 0 12 2Z"/><path d="M8 14h0"/><path d="M16 14h0"/></svg>
+                    Tirugu
+                </a>
+                <a href="travel.html" class="text-gray-600 hover:text-blue-600 transition-colors">&larr; Back to Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-hills h-96 flex items-center justify-center text-white relative mt-16">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="text-center z-10 p-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Karnataka's Hill Stations</h1>
+            <p class="text-lg md:text-xl mt-2">Discover the Serene Escapes of the Western Ghats</p>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16">
+        <!-- About Section -->
+        <section id="about">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-4">Misty Mountains and Coffee Plantations</h2>
+                <p class="text-lg text-gray-600 leading-relaxed text-center">
+                    Cradled by the Western Ghats, Karnataka is home to some of South India's most enchanting hill stations. These cool, verdant retreats offer a perfect escape from the city life, with their rolling hills, aromatic coffee and spice plantations, cascading waterfalls, and breathtaking viewpoints.
+                </p>
+            </div>
+        </section>
+
+        <!-- Top Hill Stations Section -->
+        <section id="hill-stations" class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Top Hill Station Destinations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Hill Station Card 1: Coorg -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/27ae60/ffffff?text=Coorg+(Madikeri)" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Coorg (Madikeri)</h3>
+                        <p class="text-gray-600 mb-4">Often called the 'Scotland of India', Coorg is famous for its lush coffee estates, misty landscapes, and rich Kodava culture.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Key Attractions:</span> Abbey Falls, Raja's Seat, Dubare Elephant Camp</p>
+                    </div>
+                </div>
+
+                <!-- Hill Station Card 2: Chikmagalur -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/2980b9/ffffff?text=Chikmagalur" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Chikmagalur</h3>
+                        <p class="text-gray-600 mb-4">Known as the 'Coffee Land of Karnataka', this serene destination is home to the state's highest peak, Mullayanagiri, offering stunning trekking trails.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Key Attractions:</span> Mullayanagiri, Baba Budangiri, Hebbe Falls</p>
+                    </div>
+                </div>
+
+                <!-- Hill Station Card 3: Kemmangundi -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/8e44ad/ffffff?text=Kemmangundi" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Kemmangundi</h3>
+                        <p class="text-gray-600 mb-4">A picturesque hill station with beautifully laid-out ornamental gardens, magnificent mountain views, and spectacular sunsets.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Key Attractions:</span> Z Point, Hebbe Falls, Rose Garden</p>
+                    </div>
+                </div>
+
+                <!-- Hill Station Card 4: Sakleshpur -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/c0392b/ffffff?text=Sakleshpur" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Sakleshpur</h3>
+                        <p class="text-gray-600 mb-4">A trekker's paradise, Sakleshpur is known for its incredible Bisle Ghat viewpoint and the historic Manjarabad Fort.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Key Attractions:</span> Bisle Viewpoint, Manjarabad Fort, Railway Trek</p>
+                    </div>
+                </div>
+                
+                <!-- Hill Station Card 5: Agumbe -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/f39c12/ffffff?text=Agumbe" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Agumbe</h3>
+                        <p class="text-gray-600 mb-4">Famed for its glorious sunsets over the Arabian Sea and its dense rainforests, earning it the title 'Cherrapunji of the South'.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Key Attractions:</span> Sunset View Point, Barkana Falls, Rainforest</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Best Time to Visit Section -->
+        <section id="best-time" class="mt-20">
+             <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg flex items-center gap-6">
+                <div>
+                    <i data-lucide="calendar-check" class="w-16 h-16 text-blue-600"></i>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Best Time to Visit</h3>
+                    <p class="text-gray-600">The best time to explore Karnataka's hill stations is from **September to May**. The post-monsoon months offer lush green landscapes, while the winter and spring provide pleasant weather for sightseeing and trekking.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="mt-20">
+            <h2 class="text-3xl font-bold text-center mb-8">Views from the Ghats</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/16a085/ffffff?text=Coffee+Plantation" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/2980b9/ffffff?text=Misty+Hills" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/d35400/ffffff?text=Mountain+Peak" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/c0392b/ffffff?text=Hidden+Waterfall" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Tirugu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

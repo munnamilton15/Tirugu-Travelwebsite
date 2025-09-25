@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfalls in Karnataka - Tirugu</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-falls {
+            background-image: url('https://placehold.co/1600x800/3498db/ffffff?text=Waterfalls+of+Karnataka');
+            background-size: cover;
+            background-position: center;
+        }
+        .info-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 text-blue-600"><path d="M18.4 10.3C18.8 11.5 19 12.7 19 14c0 3.3-2.7 6-6 6s-6-2.7-6-6c0-1.3.2-2.5.6-3.7"/><path d="M8.8 12.3C9.4 11.2 10.6 10.1 12 9.1c1.4 1 2.6 2.1 3.2 3.2"/><path d="M12 14v-5"/><path d="M12 22c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5Z"/><path d="M12 2a10 10 0 0 0-9.8 11.3 10 10 0 0 0 19.6 0A10 10 0 0 0 12 2Z"/><path d="M8 14h0"/><path d="M16 14h0"/></svg>
+                    Tirugu
+                </a>
+                <a href="travel.html" class="text-gray-600 hover:text-blue-600 transition-colors">&larr; Back to Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-falls h-96 flex items-center justify-center text-white relative mt-16">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="text-center z-10 p-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Waterfalls of Karnataka</h1>
+            <p class="text-lg md:text-xl mt-2">Witness the Power and Beauty of Nature's Cascades</p>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16">
+        <!-- About Section -->
+        <section id="about">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-4">A Land of Thundering Cascades</h2>
+                <p class="text-lg text-gray-600 leading-relaxed text-center">
+                    Thanks to the mighty rivers of the Western Ghats, Karnataka is blessed with an abundance of stunning waterfalls. During the monsoon season, these cascades come alive, thundering down cliffs and valleys, creating breathtaking spectacles of nature's power and beauty.
+                </p>
+            </div>
+        </section>
+
+        <!-- Top Waterfalls Section -->
+        <section id="waterfalls" class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Must-Visit Waterfalls</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Waterfall Card 1: Jog Falls -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/3498db/ffffff?text=Jog+Falls" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Jog Falls</h3>
+                        <p class="text-gray-600 mb-4">India's second-highest plunge waterfall, where the Sharavathi River spectacularly drops in four distinct cascades: Raja, Rani, Roarer, and Rocket.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Location:</span> Shivamogga</p>
+                    </div>
+                </div>
+
+                <!-- Waterfall Card 2: Shivanasamudra Falls -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/e74c3c/ffffff?text=Shivanasamudra+Falls" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Shivanasamudra Falls</h3>
+                        <p class="text-gray-600 mb-4">A majestic twin waterfall on the Kaveri river, splitting into the Gaganachukki and Bharachukki falls, creating a powerful and wide cascade.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Location:</span> Mandya</p>
+                    </div>
+                </div>
+
+                <!-- Waterfall Card 3: Abbey Falls -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/2ecc71/ffffff?text=Abbey+Falls" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Abbey Falls</h3>
+                        <p class="text-gray-600 mb-4">Nestled amidst private coffee and spice estates near Madikeri, this waterfall offers a picturesque view from a hanging bridge.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Location:</span> Coorg</p>
+                    </div>
+                </div>
+
+                <!-- Waterfall Card 4: Hebbe Falls -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/9b59b6/ffffff?text=Hebbe+Falls" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Hebbe Falls</h3>
+                        <p class="text-gray-600 mb-4">Located inside a coffee estate in Kemmangundi, this enchanting waterfall cascades down in two stages, Dodda Hebbe and Chikka Hebbe.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Location:</span> Chikmagalur</p>
+                    </div>
+                </div>
+                
+                <!-- Waterfall Card 5: Irupu Falls -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/f1c40f/ffffff?text=Irupu+Falls" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Irupu Falls</h3>
+                        <p class="text-gray-600 mb-4">A sacred waterfall in the Brahmagiri Range, believed to possess cleansing powers. It's a starting point for the trek to Brahmagiri Peak.</p>
+                        <p class="font-semibold text-gray-700"><span class="font-bold">Location:</span> Coorg</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Best Time to Visit Section -->
+        <section id="best-time" class="mt-20">
+             <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg flex items-center gap-6">
+                <div>
+                    <i data-lucide="cloud-rain" class="w-16 h-16 text-blue-600"></i>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-2">Best Time to Visit</h3>
+                    <p class="text-gray-600">The waterfalls are at their roaring best during the monsoon and post-monsoon months, from **June to November**. The increased water flow makes for a truly spectacular and powerful sight.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="mt-20">
+            <h2 class="text-3xl font-bold text-center mb-8">Monsoon Majesty</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/1abc9c/ffffff?text=Thundering+Cascade" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/34495e/ffffff?text=Lush+Greenery" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/e67e22/ffffff?text=Plunge+Pool" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="https://placehold.co/400x400/8e44ad/ffffff?text=Misty+Spray" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Tirugu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Agumbe Rainforest - Tirugu</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-agumbe {
+            background-image: url('sets/ss/agum1.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .info-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="#" class="text-2xl font-bold text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 text-blue-600"><path d="M18.4 10.3C18.8 11.5 19 12.7 19 14c0 3.3-2.7 6-6 6s-6-2.7-6-6c0-1.3.2-2.5.6-3.7"/><path d="M8.8 12.3C9.4 11.2 10.6 10.1 12 9.1c1.4 1 2.6 2.1 3.2 3.2"/><path d="M12 14v-5"/><path d="M12 22c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5Z"/><path d="M12 2a10 10 0 0 0-9.8 11.3 10 10 0 0 0 19.6 0A10 10 0 0 0 12 2Z"/><path d="M8 14h0"/><path d="M16 14h0"/></svg>
+                    Tirugu
+                </a>
+                <a href="travel.html" class="text-gray-600 hover:text-blue-600 transition-colors">&larr; Back to Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-agumbe h-96 flex items-center justify-center text-white relative mt-16">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="text-center z-10 p-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Agumbe Rainforest</h1>
+            <p class="text-lg md:text-xl mt-2">The Cherrapunji of the South</p>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 py-16">
+        <!-- About Section -->
+        <section id="about">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-4">A Biodiversity Hotspot</h2>
+                <p class="text-lg text-gray-600 leading-relaxed text-center">
+                    Agumbe is a high-altitude village in the Western Ghats, renowned for its pristine rainforests, heavy rainfall, and incredible biodiversity. It is home to the King Cobra and forms a part of the Someshwara Wildlife Sanctuary. The region, famously the setting for the TV series 'Malgudi Days', offers a serene escape for nature lovers, researchers, and photographers.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Facts Section -->
+        <section id="key-facts" class="mt-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center info-card">
+                    <i data-lucide="cloud-rain" class="w-12 h-12 mx-auto text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Annual Rainfall</h3>
+                    <p class="text-gray-600">Over 7,000 mm</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center info-card">
+                    <i data-lucide="leaf" class="w-12 h-12 mx-auto text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Known For</h3>
+                    <p class="text-gray-600">Rich Biodiversity, King Cobras</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center info-card">
+                    <i data-lucide="calendar-days" class="w-12 h-12 mx-auto text-blue-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Best Time to Visit</h3>
+                    <p class="text-gray-600">November to February</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Attractions Section -->
+        <section id="attractions" class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-8">Key Attractions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Attraction Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="sets/ss/agum2.jpg" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Sunset View Point</h3>
+                        <p class="text-gray-600">One of the highest points in the Western Ghats, offering spectacular sunset views over the Arabian Sea.</p>
+                    </div>
+                </div>
+                <!-- Attraction Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="sets/ss/barkana.jpg" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Barkana Falls</h3>
+                        <p class="text-gray-600">Among the ten highest waterfalls in India, this majestic waterfall is a sight to behold during the monsoon.</p>
+                    </div>
+                </div>
+                <!-- Attraction Card 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="sets/ss/Agumbe_Rainforest_Research_Stati.jpg" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Rainforest Research Station</h3>
+                        <p class="text-gray-600">A unique facility for studying the ecology of the rainforest and its diverse species, especially the King Cobra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sample Itinerary Section -->
+        <section id="itinerary" class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-8">Sample 2-Day Itinerary</h2>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-xl font-semibold border-b pb-2 mb-2">Day 1: Arrival and Exploration</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Morning departure from Shivamogga/Udupi.</li>
+                            <li>Check into a traditional homestay in Agumbe.</li>
+                            <li>Visit the Rainforest Research Station.</li>
+                            <li>Head to the Sunset View Point for a mesmerizing evening.</li>
+                            <li>Dinner featuring local Malnad cuisine.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold border-b pb-2 mb-2">Day 2: Waterfalls and Departure</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>After breakfast, trek to the stunning Barkana Falls.</li>
+                            <li>Explore the serene surroundings and enjoy the natural beauty.</li>
+                            <li>Return to the homestay for lunch.</li>
+                            <li>Depart from Agumbe in the afternoon.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section id="gallery" class="mt-16">
+            <h2 class="text-3xl font-bold text-center mb-8">Gallery</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="sets/ss/Agumbe_Rainforest_Research_Stati.jpg" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="sets/ss/Agumbe_Sunset_Point_Main.jpg" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="sets/ss/Agumbe-Ghat-copy.jpg" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-md"><img src="sets/ss/Agumbe-01.jpg" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"></div>
+            </div>
+        </section>
+
+       
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Tirugu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
